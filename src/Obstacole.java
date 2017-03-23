@@ -3,19 +3,25 @@ import java.util.Vector;
 
 public abstract class Obstacole {
 
-  public Integer weight;
+  public int weight;
 
-  public Integer rezistenta;
+  public int rezistenta;
 
-  public Integer height;
+  public int height;
 
     public ArrayList<String> myGame;
     public Level myLevel;
 
-  public void get() {
+  public int getWeight() {
+    return weight;
   }
 
-  public void set() {
+  public int getRezistenta() {
+    return rezistenta;
+  }
+
+  public int getHeight() {
+    return height;
   }
 
 }

@@ -5,7 +5,9 @@ public class Aplicatie {
 
   private static Aplicatie instance = new Aplicatie();
   public boolean status = false;
-  Aplicatie() {}
+  Aplicatie() {
+    this.meniu = new Meniu();
+  }
 
   public static Aplicatie getInstance() {
     return instance;
@@ -22,6 +24,8 @@ public class Aplicatie {
   public String descriere;
 
   public ArrayList<String> context;
+
+  public Meniu meniu;
 
   public void install() {
   }

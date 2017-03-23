@@ -1,16 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 public class Game {
 
-    public Vector  myVietati;
-    public Vector  myObstacole;
-    public Vector  myPorc;
-    public Vector  myMeniu;
+    Game() {
+        obstacole = new ArrayList<Obstacole>();
+        myVietati = new ArrayList<Vietati>();
+        obstacole.add(new Sticla());
+        obstacole.add(new Lemne());
+        obstacole.add(new Piatra());
+
+        myVietati.add(new Red(10, 20));
+        myVietati.add(new Blue(10, 20));
+        myVietati.add(new Black(10, 20));
+    }
+
+    public List<Vietati>  myVietati;
+    public List<Obstacole> obstacole;
+    public Meniu myMeniu;
     /**
    * 
    * @element-type Level
    */
-  public Vector  myLevel;
+  public Level myLevel;
 
   public void StartGame() {
   }

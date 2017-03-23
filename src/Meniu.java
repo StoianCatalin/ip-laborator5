@@ -2,8 +2,12 @@ import java.util.Vector;
 
 public class Meniu {
 
+    Meniu() {
+        myGame = new Game();
+    }
+
     public Vector  myAplicatie;
-    public Vector  myGame;
+    public Game  myGame;
 
   public void newGame() {
   }
