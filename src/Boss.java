@@ -1,2 +1,2 @@
-public class Boss extends Porc, Vietati, Vietati {
+public class Boss extends Vietati {
 }

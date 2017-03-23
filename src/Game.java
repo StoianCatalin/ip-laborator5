@@ -4,7 +4,6 @@ public class Game {
 
     public Vector  myVietati;
     public Vector  myObstacole;
-    public Vector  myObstacole;
     public Vector  myPorc;
     public Vector  myMeniu;
     /**

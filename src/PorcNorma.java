@@ -1,2 +1,2 @@
-public class PorcNorma extends Porc, Vietati, Vietati {
+public class PorcNorma extends Vietati {
 }

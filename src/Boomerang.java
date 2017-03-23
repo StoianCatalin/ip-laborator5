@@ -1,2 +1,2 @@
-public class Boomerang extends Vietati, Vietati, Vietati {
+public class Boomerang extends Vietati {
 }

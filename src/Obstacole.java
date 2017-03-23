@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Vector;
 
 public abstract class Obstacole {
@@ -8,8 +9,7 @@ public abstract class Obstacole {
 
   public Integer height;
 
-    public Vector  myGame;
-    public Vector  myGame;
+    public ArrayList<String> myGame;
     public Level myLevel;
 
   public void get() {

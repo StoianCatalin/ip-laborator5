@@ -1,2 +1,2 @@
-public class Red extends Vietati, Vietati {
+public class Red extends Vietati {
 }

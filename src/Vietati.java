@@ -1,12 +1,18 @@
 import java.util.Vector;
 
-public abstract class Vietati extends Red, Red {
+public abstract class Vietati {
 
-  public Integer putere;
+  public Integer getPutere() {
+    return putere;
+  }
 
-  public Integer viteza;
+  public Integer getViteza() {
+    return viteza;
+  }
 
-  public Integer newAttr;
+  public int putere;
+
+  public int viteza;
 
     public Vector  myGame;
     public Vector  myLevel;
