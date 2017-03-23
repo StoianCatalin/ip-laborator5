@@ -1,6 +1,11 @@
 import java.util.Vector;
 
-public abstract class Vietati {
+public class Vietati {
+  public int putere;
+  public int viteza;
+
+  public Vector  myGame;
+  public Vector  myLevel;
 
   public Integer getPutere() {
     return putere;
@@ -10,17 +15,5 @@ public abstract class Vietati {
     return viteza;
   }
 
-  public int putere;
-
-  public int viteza;
-
-    public Vector  myGame;
-    public Vector  myLevel;
-
-  public void get() {
-  }
-
-  public void set() {
-  }
 
 }
