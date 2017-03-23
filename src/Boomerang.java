@@ -1,2 +1,2 @@
-public class Boomerang extends Pasara, Pasara {
+public class Boomerang extends Vietati, Vietati, Vietati {
 }

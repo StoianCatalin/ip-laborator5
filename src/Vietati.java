@@ -1,13 +1,15 @@
 import java.util.Vector;
 
-public abstract class Porc {
+public abstract class Vietati extends Red, Red {
 
   public Integer putere;
 
-  public Integer viata;
+  public Integer viteza;
+
+  public Integer newAttr;
 
     public Vector  myGame;
-    public Level myLevel;
+    public Vector  myLevel;
 
   public void get() {
   }

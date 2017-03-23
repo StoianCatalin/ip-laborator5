@@ -11,9 +11,9 @@ public class Level {
     public Game myGame;
     /**
    * 
-   * @element-type Pasara
+   * @element-type Vietati
    */
-  public Vector  myPasara;
+  public Vector  myVietati;
     /**
    * 
    * @element-type Obstacole

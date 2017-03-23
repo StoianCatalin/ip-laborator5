@@ -1,2 +1,2 @@
-public class Black extends Pasara {
+public class Black extends Vietati, Vietati {
 }

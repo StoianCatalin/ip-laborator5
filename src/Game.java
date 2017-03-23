@@ -2,7 +2,7 @@ import java.util.Vector;
 
 public class Game {
 
-    public Vector  myPasara;
+    public Vector  myVietati;
     public Vector  myObstacole;
     public Vector  myObstacole;
     public Vector  myPorc;

@@ -1,2 +1,2 @@
-public class HelMet extends Porc {
+public class HelMet extends Porc, Vietati, Vietati {
 }

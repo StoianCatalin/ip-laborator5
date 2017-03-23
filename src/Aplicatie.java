@@ -10,10 +10,10 @@ public class Aplicatie {
 
     public Vector  myMeniu;
 
-  public void instal() {
+  public void install() {
   }
 
-  public void uninstal() {
+  public void uninstall() {
   }
 
 }
