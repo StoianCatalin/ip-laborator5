@@ -1,0 +1,40 @@
+import java.util.Vector;
+
+public class Meniu {
+
+    int newGame;
+    int options;
+    int score;
+    int exit;
+
+    Meniu() {
+       ArrayList <Integer> options = new ArrayList<Integer>();
+       options
+    }
+
+    public Vector  myAplicatie;
+    public Game  myGame;
+
+  public void newGame() {
+	  
+  }
+
+  public void Options() {
+  }
+
+  public void Exit() {
+  }
+
+  public void Continue() {
+  }
+
+  public void moveUp() {
+	  
+  }
+
+  public void moveDown() {
+
+  }
+
+
+}

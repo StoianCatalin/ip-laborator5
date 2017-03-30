@@ -1,0 +1,38 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Vector;
+
+public class Game {
+
+	public Game game;
+	public ArrayList<Obstacole> obstacole = new ArrayList<Obstacole>();
+	public ArrayList<Vietati> myVietati = new ArrayList<Vietati>();
+	
+	
+	public Game() {
+		obstacole.add(new Sticla());
+		obstacole.add(new Lemne());
+		obstacole.add(new Piatra());
+
+		myVietati.add(new Red(10, 20));
+		myVietati.add(new Blue(10, 20));
+		myVietati.add(new Black(10, 20));
+	}
+	public Meniu myMeniu;
+
+	public Level myLevel;
+
+	public void StartGame() {
+		
+	}
+
+	public void Pause() {
+	}
+
+	public void Exit() {
+	}
+
+	public void Continue() {
+	}
+
+}

@@ -3,13 +3,9 @@ import java.util.Vector;
 
 public class Meniu {
 
-    int newGame;
-    int options;
-    int score;
-    int exit;
+    ArrayList <Integer> options = new ArrayList<Integer>();
 
     Meniu() {
-       ArrayList <Integer> options = new ArrayList<Integer>();
        options.add(1);
        options.add(0);
        options.add(0);
@@ -33,7 +29,7 @@ public class Meniu {
   }
 
   public void moveUp() {
-	  
+	  this.options
   }
 
   public void moveDown() {
