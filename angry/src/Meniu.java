@@ -4,6 +4,7 @@ import java.util.Vector;
 public class Meniu {
 
     ArrayList <Integer> options = new ArrayList<Integer>();
+    Game game;
 
     Meniu() {
        options.add(1);
@@ -15,8 +16,8 @@ public class Meniu {
     public Vector  myAplicatie;
     public Game  myGame;
 
-  public void newGame() {
-	  
+  public void newGame(String name) {
+	  game = new Game(name);
   }
 
   public void Options() {
@@ -29,7 +30,21 @@ public class Meniu {
   }
 
   public void moveUp() {
-	  this.options
+	  int position = 0;
+	  for (int i = 0; i< options.size(); i++){
+		  if (options.get(i).equals(new Integer(1))){
+			  position = i;
+			  break;
+		  }
+	  }
+	  
+	  options.set(position, new Integer(0));
+	  
+	  if (position == options.size() - 1){
+		  options.set(0, new Integer(1));
+	  } else {
+		  options.set(position +1, new Integer(1));
+	  }
   }
 
   public void moveDown() {

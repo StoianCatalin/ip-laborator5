@@ -4,7 +4,9 @@ import java.util.Vector;
 
 public class Game {
 
-    Game() {
+	String name = "";
+	
+    Game(String name) {
         obstacole = new ArrayList<Obstacole>();
         myVietati = new ArrayList<Vietati>();
         obstacole.add(new Sticla());
@@ -14,6 +16,10 @@ public class Game {
         myVietati.add(new Red(10, 20));
         myVietati.add(new Blue(10, 20));
         myVietati.add(new Black(10, 20));
+        
+        this.name = name;
+        
+        
     }
 
     public List<Vietati>  myVietati;
