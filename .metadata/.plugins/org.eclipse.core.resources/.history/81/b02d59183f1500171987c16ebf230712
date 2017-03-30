@@ -1,0 +1,43 @@
+import java.util.Vector;
+
+import org.omg.PortableServer.ServantRetentionPolicyValue;
+
+public class Level {
+	
+	public Integer highScore;
+
+	public Integer stars;
+
+	public Integer score;
+
+	Level(Integer a, Integer b, Integer c) {
+		setHighScore(a);
+		setScore(b);
+		setStars(c);
+	}
+
+	public Integer getHighScore() {
+		return highScore;
+	}
+
+	public void setHighScore(Integer highScore) {
+		this.highScore = highScore;
+	}
+
+	public Integer getStars() {
+		return stars;
+	}
+
+	public void setStars(Integer stars) {
+		this.stars = stars;
+	}
+
+	public Integer getScore() {
+		return score;
+	}
+
+	public void setScore(Integer score) {
+		this.score = score;
+	}
+
+}

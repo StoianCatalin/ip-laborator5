@@ -1,0 +1,63 @@
+import java.util.Vector;
+
+import org.omg.PortableServer.ServantRetentionPolicyValue;
+
+public class Level {
+
+	public Level() {
+		super();
+	}
+
+	public Integer getHighScore() {
+		return highScore;
+	}
+
+	public void setHighScore(Integer highScore) {
+		this.highScore = highScore;
+	}
+
+	public Integer getStars() {
+		return stars;
+	}
+
+	public void setStars(Integer stars) {
+		this.stars = stars;
+	}
+
+	public Integer getScore() {
+		return score;
+	}
+
+	public void setScore(Integer score) {
+		this.score = score;
+	}
+
+	public Integer highScore;
+
+	public Integer stars;
+
+	public Integer score;
+
+	public Game myGame;
+	/**
+	 * 
+	 * @element-type Vietati
+	 */
+	public Vector myVietati;
+	/**
+	 * 
+	 * @element-type Obstacole
+	 */
+	public Vector myObstacole;
+	/**
+	 * 
+	 * @element-type Porc
+	 */
+	public Vector myPorc;
+	/**
+	 * 
+	 * @element-type Enviroment
+	 */
+	public Vector myEnviroment;
+
+}
