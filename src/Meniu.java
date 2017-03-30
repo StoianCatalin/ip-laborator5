@@ -20,9 +20,6 @@ public class Meniu {
 	  game = new Game(name);
   }
 
-  public void Options() {
-  }
-
   public void Exit() {
 	  this.game = null;
   }
